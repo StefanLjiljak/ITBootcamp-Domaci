@@ -57,7 +57,7 @@ function addItem() {
     let removeBtn = document.createElement('button');
     removeBtn.className = 'task-remove-btn';
     removeBtn.addEventListener('click', removeTask);
-    removeBtn.innerHTML = 'X';
+    removeBtn.innerHTML = '&times;';
 
     let chkDone = document.createElement('input');
     chkDone.type = 'checkbox';
